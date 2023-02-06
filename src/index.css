@@ -1,0 +1,137 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #f9f4f2;
+    font-family: 'Patrick Hand SC',cursive;
+}
+
+.content{
+    margin:2rem 6rem;
+}
+.content__header{
+    color: #653239;
+    margin-bottom: 2rem;
+    letter-spacing: 0.5rem;
+    background-color: #E8D6CB;
+    padding: 0.1rem 1rem;
+    border-radius: 0.4rem;
+    max-width: 600px;
+    text-align: center;
+    border: 0.5px solid #653239;
+}
+
+/* Buttons
+------------------------- */
+.wrapper__sort-buttons{
+    display: flex;    
+    margin-bottom: 2.5rem;
+
+}
+.select{
+    cursor: pointer;
+    font-family: 'Patrick Hand', cursive;
+    background-color: #E8D6CB;
+    border-radius: 0.3rem;
+    padding: 0.3rem 1.5rem;
+    font-size: 1rem;
+    color: #653239;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.btn1{
+    margin-left: auto;
+}
+.btn{
+    margin-left: 1rem;
+}
+.btn,.btn1{
+    font-family: 'Patrick Hand', cursive;
+    padding: 0.3rem 1.5rem;
+    border-radius: 0.2rem;
+    color: #653239;
+    background-color: #E8D6CB;
+    border: 0.5px solid #653239;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    
+}
+
+/* Card
+------------------------- */
+
+.name{
+    color: #2E1E00;
+font-size: 2rem;
+background-color: #f4f0ee;
+padding: 0.3rem 1rem;
+margin: 0.5rem;
+border-radius: 0.3rem;
+}
+.country-name{
+    color: #653239;
+    font-size: 1.8rem;
+    margin-left: 1rem;
+}
+.lists{
+    background-color:#E8D6CB;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    border: 0.5px solid #653239;
+}
+
+
+
+/* Media queries
+------------------------- */
+
+@media only screen and (max-width: 791px) {
+    .wrapper__sort-buttons{
+        display: flex;    
+        flex-direction: column;
+    }
+    .content{
+        margin:2rem 2rem;
+    }
+   
+    .btn1{
+        margin: 0rem;
+        margin-top: 1rem;
+      
+    }
+    .btn{
+        margin-left: 0;
+    }
+  }
+
+
+  @media only screen and (max-width: 410px) {
+    .content__header{
+        font-size: 0.9rem;
+    }
+    .name{
+      font-size: 1.5rem;
+  }
+  .country-name{
+    font-size: 1.3rem;
+}
+.content{
+    margin: 2rem 1rem;
+}
+    }
+    @media only screen and (max-width: 320px) {
+
+        .name{
+          font-size: 1.4rem;
+      }
+      .country-name{
+        font-size: 1.2rem;
+    }
+    
+        }
+      
